@@ -2,14 +2,14 @@
    "content_scripts": [ {
       "all_frames": true,
       "js": [ "js/jquery-1.10.2.js", "js/carbo.js" ],
-      "matches": [ "http://*/*" ]
+      "matches": [ "https://*/*" , "http://*/*"]
    } ],
    "description": "R. Beatiful Milos dancing",
    "icons": {
    },
    "manifest_version": 2,
    "name": "rMilos",
-   "version": "2.0",
+   "version": "2.1",
    "update_url": "https://clients2.google.com/service/update2/crx",
    "web_accessible_resources": [ "js/jquery.js", "img/*" ]
 }
